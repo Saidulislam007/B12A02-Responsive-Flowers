@@ -166,3 +166,110 @@ nav {
     text-align: center;
     width: 100%; 
 }
+
+.card-main img {
+    width: 270px; 
+    height: 322px; 
+     
+    object-fit: contain; 
+    margin-bottom: 15px; 
+}
+
+.card-main h3 {
+    color: rgb(17, 17, 17);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 5px; 
+}
+
+.card-main h2 {
+    color: rgb(17, 17, 17);
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 15px; 
+}
+.lover {
+    display: flex;
+    max-width: 1140px;
+    width: 100%; 
+    padding-top: 120px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    gap: 60px;
+}
+
+.flower-container {
+    position: relative;
+    width: 100%;
+    max-width: 540px; 
+    text-align: center;
+    
+}
+
+
+.flower-store-img {
+    width: 100%; 
+    height: auto; 
+    display: block;
+    
+}
+
+.badge-img {
+    width: 286px;
+    height: auto;
+    position: absolute;
+    left: 65%; 
+    top: -110px;
+    transform: translateX(-50%); 
+    z-index: 2;
+    animation: spin-pause 2s linear infinite;
+    background-color: transparent; 
+    object-fit: contain;
+}
+
+@keyframes spin-pause {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(360deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.f-p-lover {
+    flex: 1;
+    max-width: 540px; 
+    margin: 0;
+}
+
+.f-p-lover h1 {
+    width: auto; 
+    height: auto; 
+    color: rgb(0, 0, 0);
+    font-family: "Noto Serif", serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2; 
+    margin-bottom: 20px;
+    margin-left: 0; 
+}
+
+.f-p-lover li {
+    width: auto; 
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-left: 0; 
+}
+
+.f-p-lover ul {
+    list-style-type: disc;
+    padding-left: 20px; 
+}
