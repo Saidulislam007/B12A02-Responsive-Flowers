@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: rgb(245, 248, 255); 
+    line-height: 1.5; 
+    color: rgb(37, 36, 50); 
+}
+
+
+.orange-color {
+    color: rgb(233, 90, 8);
+}
+
+.btn-primary {
+    border: none;
+    width: 270px; 
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(233, 90, 8);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.2; 
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: rgb(87, 32, 0);
+}
+
+/* --- Navigation --- */
+nav {
+    display: flex;
+    max-width: 1140px; 
+    width: 100%; 
+    height: 71px;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 0 auto;
+    padding: 0 20px; 
+    box-sizing: border-box;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: rgb(37, 36, 50);
+    transition: color 0.3s ease;
+}
+
+.span-1,
+.span-2 {
+    color: rgb(137, 135, 161);
+}
+
+.nav-list a:hover {
+    color: rgb(233, 90, 8);
+}
+
+/* --- Hero Banner Section --- */
+.section {
+    display: flex;
+    max-width: 1140px; 
+    width: 100%;
+    padding-top: 120px;
+    margin: 0 auto;
+    align-items: center; /* Align items for desktop layout */
+    justify-content: space-between; /* Space out content and image */
+    
+    padding-right: 20px; 
+}
+
+.section-one {
+    flex: 1;
+    padding-right: 30px; 
+}
+
+.section-one-h {
+    font-family: "Noto Serif", serif;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1.2; 
+    margin-bottom: 20px; 
+}
+
+.section-one-p {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5; 
+    
+}
+
+.section-one-fresh-clr {
+    color: rgb(233, 90, 8);
+}
+
+.mobile-only-img {
+    max-width: 100%; 
+    height: 355px;
+    display: block; 
+}
